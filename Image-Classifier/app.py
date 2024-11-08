@@ -68,3 +68,32 @@ if uploaded_file is not None:
     # Display the prediction
     st.write(f"Predicted class: {results[pred_class]}")
     st.write(f"Confidence: {confidence_score:.2f}%")
+
+footer="""<style>
+a:link , a:visited{
+color: white;
+background-color: transparent;
+text-decoration: underline;
+}
+
+a:hover,  a:active {
+color: red;
+background-color: transparent;
+text-decoration: underline;
+}
+
+.footer {
+left: 0;
+bottom: 0;
+width: 100%;
+color:white;
+text-align: center;
+}
+</style>
+<br><br><br>
+<div class="footer">
+<p>KRBL-01 Image Classifier <a style='display: block; text-align: center;' href="https://ashimnepal.com.np" target="_blank">Ashim Nepal</a></p>
+</div>
+"""
+
+st.markdown(footer,unsafe_allow_html=True)
