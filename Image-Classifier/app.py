@@ -5,7 +5,7 @@ import tensorflow as tf
 print(tf.__version__)
 
 # Load the trained model
-model = tf.keras.models.load_model('image_classifier_model.h5')
+model = tf.keras.models.load_model('Image-Classifier/image_classifier_model.h5')
 
 # Dictionary to map the predicted classes to their labels with emojis
 results = {
