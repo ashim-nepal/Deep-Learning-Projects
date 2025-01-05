@@ -5,5 +5,7 @@
 - Image Classifier (Used CIFAR Datasets)
 - Computer Vision Simple project of Face identifyer (using open cv library)
 - -
-- 
+- -
+- -
+- -
 
