@@ -6,3 +6,6 @@
 - Computer Vision Simple project of Face identifyer (using open cv library)
 - -
 - -
+- -
+- -
+- -
