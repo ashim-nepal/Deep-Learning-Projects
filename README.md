@@ -3,8 +3,8 @@
 <b>The List of Projects are as follows,</b>
 
 - Image Classifier (Used CIFAR Datasets)
-- Computer Vision Simple project of Face identifyer (using open cv library)
-- -
+- Flower Image Classifier (CNN Architecture)
+- Sentiment Analysis on Racist/Sexist Dataset (RNN Model)
 - -
 - -
 
